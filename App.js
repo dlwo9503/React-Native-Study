@@ -4,7 +4,6 @@ import {SafeAreaView, View, Text, StyleSheet} from 'react-native';
 import TodoInsert from './components/TodoInsert';
 
 const App = () => {
-  // todos: {id: Number, textValue: string, checked: boolean }
   const [todos, setTodos] = useState([]);
 
   const addTodo = text => {
@@ -54,8 +53,8 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: '#2E2E2E',
     flex: 1,
-    borderTopLeftRadius: 10, // to provide rounded corners
-    borderTopRightRadius: 10, // to provide rounded corners
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
     marginLeft: 10,
     marginRight: 10,
   },
